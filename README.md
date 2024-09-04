@@ -62,7 +62,7 @@ sudo apt install python3-kconfiglib python3-jinja2 python3-jsonschema ros-humble
 pip3 install pyros-genmsg
 mkdir -p ~/vg/src
 cd ~/vg/src
-git clone https://github.com/osrf/vehicle_gateway
+git clone https://github.com/lobanov-oleh/vehicle_gateway
 cd ~/vg
 vcs import src < src/vehicle_gateway/dependencies.repos
 source /opt/ros/humble/setup.bash
